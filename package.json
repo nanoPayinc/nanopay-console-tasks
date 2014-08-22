@@ -1,5 +1,5 @@
 {
-  "name": "nanopay-console",
+  "name": "nanopay-console-tasks",
   "version": "0.0.1",
   "description": "Nanopay command line console helper for Node applications",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cajoy/nanopay-console"
+    "url": "https://github.com/cajoy/nanopay-console-tasks"
   },
   "main": "index.js",
   "dependencies": {
@@ -18,9 +18,9 @@
     "lodash.defaults": "^2.4.1"
   },
   "bugs": {
-    "url": "https://github.com/strongloop/nanopay-console/issues"
+    "url": "https://github.com/strongloop/nanopay-console-tasks/issues"
   },
-  "homepage": "https://github.com/strongloop/nanopay-console",
+  "homepage": "https://github.com/strongloop/nanopay-console-tasks",
   "_npmUser": {
     "name": "cajoy",
     "email": "cajoy.dev@gmail.com"
@@ -30,5 +30,20 @@
       "name": "cajoy",
       "email": "cajoy.dev@gmail.com"
     }
-  ]
+  ],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Alex Struc",
+    "email": "cajoy.dev@gmail.com"
+  },
+  "license": "ISC",
+  "readme": "Loopback console tasks execution\n",
+  "readmeFilename": "Readme.MD",
+  "gitHead": "3ce9fff9a26d0a2c61688c26575988c42772bf94",
+  "_id": "nanopay-console-tasks@0.0.1",
+  "_shasum": "1f0d57e886c3e9dc1f06512fa0bfa5253313eacc",
+  "_from": "nanopay-console-tasks@*"
 }
