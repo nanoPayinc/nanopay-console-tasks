@@ -8,6 +8,7 @@
  */
 
 var _defaults = require('lodash.defaults');
+var fs        = require('fs');
 
 module.exports = consoleTasks;
 
@@ -27,13 +28,17 @@ function consoleTasks(app, options) {
       if (fs.existsSync(options.tasksPath + argv.task + '.js')) {
         console.log('Executing "' + argv.task + '":');
 
-        return require(options.tasksPath + argv.task)(app, argv);
+        require(options.tasksPath + argv.task)(app, argv);
+
+        return true;
       } else {
         console.log('Task "' + argv.task + '" not found');
 
         return process.exit(0);
       }
     }
+
+    return false;
   }
 
   return cls;
