@@ -1,4 +1,1 @@
-loopback-console
-================
-
-Add console/tasks support to loopback framework
+Loopback console tasks execution
