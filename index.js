@@ -14,7 +14,7 @@ module.exports = consoleTasks;
 
 function consoleTasks(app, options) {
   options = _defaults({}, options, {
-    'tasksPath': require('path').resolve() + '/tasks/'
+    'tasksPath': require('path').resolve() + '/server/tasks/'
   });
 
   var cls = {};
