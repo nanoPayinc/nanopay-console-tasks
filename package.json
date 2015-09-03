@@ -1,6 +1,6 @@
 {
-  "name": "nanopay-console-tasks2",
-  "version": "0.0.4",
+  "name": "nanopay-console-tasks",
+  "version": "0.0.5",
   "description": "Nanopay command line console helper for Node applications",
   "keywords": [
     "console",
